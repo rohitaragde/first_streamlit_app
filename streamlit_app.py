@@ -19,7 +19,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 
 #display the name on the page
-streamlit.dataframe(fruits-to_show)
+streamlit.dataframe(fruits_to_show)
 
 
 
