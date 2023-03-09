@@ -74,9 +74,7 @@ def insert_row_snowflake(new_fruit):
      back_from_function=insert_row_snowflake(add_my_fruit)
      streamlit.text(back_from_function)
                                     
-streamlit.write('THanks for entering ', fruit_choice)
 
-streamlit.write('Thanks for adding',add_my_fruit);
 
        
 
