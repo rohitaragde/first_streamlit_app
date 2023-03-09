@@ -7,7 +7,7 @@ from urllib.error import URLError
 
 streamlit.title('My Moms New Healthy Diner')
 
-streamlit.header('Breakfast Fvorites')
+streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥤thie Kale, Spinach & Rocket Smoothie')
 streamlit.text('🥚Hard-Boiled Free-Range Egg')
