@@ -31,8 +31,8 @@ def get_fruityvice_data(this_fruit_choice):
   return fruityvice_noramalized
   
 
-#New section to display FruityVice display response
-streamlit.header("Fruityvice Fruit Advice!")
+#New section to display FruityVice api response
+streamlit.header('Fruityvice Fruit Advice!')
 try:
  fruit_choice = streamlit.text_input('What fruit would you like information about?')
  if not fruit_choice:
@@ -43,7 +43,7 @@ try:
       
       
 except URLError as e:
- streamlit.error()
+ streamlit.error(e)
     
     
 
